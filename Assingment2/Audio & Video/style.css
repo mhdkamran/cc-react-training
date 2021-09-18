@@ -1,0 +1,25 @@
+html{
+    scroll-behavior: smooth;
+}
+#play{
+    text-align: center;
+}
+#play ul li{
+    list-style: none;
+    padding: 5px;
+}
+#play h1{
+    font-size: 3.5rem;
+    color: black;
+}
+#play::before{
+    content: "";
+    background: url('./spdr.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.0;
+    top: 0px;
+    left: 0px;
+}

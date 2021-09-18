@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+}
+#frame{
+    text-align: center;
+}
+#frame ul li{
+    list-style: none;
+}
+#frame h1{
+    font-size: 3.5rem;
+    color: black;
+}
+#frame::before{
+    content: "";
+    background: url('./s.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.0;
+    top: 0px;
+    left: 0px;
+}
